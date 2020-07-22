@@ -1,0 +1,17 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - before: |
+      cd src
+    init: |
+      pnpm i --ignore-scripts
+      pnpm run setup
+      # cd packages/client
+      # npx ts-node fixtures/generate.ts ./fixtures/blog/ --skip-transpile
+      # cd fixtures/blog
+      # npx prisma migrate save --name init --experimental && prisma migrate up --experimental
+    # command: |
+    #   cd /workspace/prisma/src/packages/client/fixtures/blog
+    #   npx ts-node main.ts
+

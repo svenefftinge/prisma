@@ -1,4 +1,4 @@
-# Contributing
+# Contributing [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/prisma/prisma)
 
 Prisma consists of a mono-repo for all TypeScript code.
 To setup and build the packages, follow these steps:
